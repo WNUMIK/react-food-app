@@ -12,6 +12,22 @@
     font-weight: bold;
 }
 
+@media screen and (max-width: 767px) {
+    .button {
+        width: 50%;
+        height: 50%;
+    }
+
+    .icon {
+        width: 1.35rem;
+        height: 1.35rem;
+        margin-right: 0.5rem;
+    }
+    .span {
+        display: none;
+    }
+}
+
 .button:hover,
 .button:active {
     background-color: antiquewhite;
