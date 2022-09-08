@@ -1,6 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import foodImage from '../../assets/food.jpeg';
 import classes from './Header.module.css';
+import HeaderCartButton from "./HeaderCartButton";
 
 class Header extends Component {
     render() {
@@ -8,7 +9,7 @@ class Header extends Component {
             <Fragment>
                 <header className={classes.header}>
                     <h1>./React Food App</h1>
-                    <button>Cart</button>
+                    <HeaderCartButton>Cart</HeaderCartButton>
                 </header>
                     <div className={classes['main-image']}>
                         <img src={foodImage} alt="Food"/>
